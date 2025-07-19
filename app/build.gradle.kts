@@ -62,4 +62,13 @@ dependencies {
 
 //    gson converter
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
+
+
+//    live data runtime
+    implementation("androidx.compose.runtime:runtime-livedata:1.8.3")
+
+//    implementation("io.coil-kt.coil3:coil-compose:3.2.0")
+// Coil v2 (more stable and compatible for Compose)
+    implementation("io.coil-kt:coil-compose:2.5.0")
+
 }
